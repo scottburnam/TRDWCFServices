@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7d92cec8-1b0d-4bed-832a-a3385d96d848" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4400/CanvasserPortalServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CanvasserPortalService.wsdl" MetadataType="Wsdl" ID="1c080e87-66b5-4574-83fc-32a5be788bfd" SourceId="1" SourceUrl="http://localhost:4400/CanvasserPortalServices.svc?wsdl" />
+    <MetadataFile FileName="CanvasserPortalServices.xsd" MetadataType="Schema" ID="39fc3c1b-a274-4b88-adf3-3c45b11816a2" SourceId="1" SourceUrl="http://localhost:4400/CanvasserPortalServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="CanvasserPortalServices.disco" MetadataType="Disco" ID="1073d71d-b495-4605-9c67-96ab3168acec" SourceId="1" SourceUrl="http://localhost:4400/CanvasserPortalServices.svc?disco" />
+    <MetadataFile FileName="CanvasserPortalServices1.xsd" MetadataType="Schema" ID="8b891d98-8c63-4b62-a456-9c4b5c9bcf53" SourceId="1" SourceUrl="http://localhost:4400/CanvasserPortalServices.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

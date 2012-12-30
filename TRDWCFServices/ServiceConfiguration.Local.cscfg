@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="TRDWCFServices" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2012-10.1.8">
+  <Role name="CanvasserPortalWCFServices">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Connection" value="Server=RJB-DEV-iMac/RJBDEV01;Database=TheRooferDirect(Client);User Id=sa;Password=!wall3y3;" />
+      <Setting name="ConnectionQA" value="Server=RJB-DEV-iMac/RJBDEV01;Database=TheRooferDirectQA(Client);User Id=sa;Password=!wall3y3;" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

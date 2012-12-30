@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="TRDWCFServices" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2012-10.1.8">
+  <Role name="CanvasserPortalWCFServices">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=trdstorage;AccountKey=F6Tui30ivNFejN7Bg00JW06srdCYGU43bCU5DXwG2137CGfYhY3s9Rkv/xoV5870g73Ud8kN/e5hUyqAxw8RUA==" />
+      <Setting name="Connection" value="Server=tcp:ev8g0r9ua2.database.windows.net,1433;Database=TheRooferDirect;User ID=trdadmin@ev8g0r9ua2;Password=!wall3y3;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
+      <Setting name="ConnectionQA" value="Server=tcp:ev8g0r9ua2.database.windows.net,1433;Database=TheRooferDirectQA;User ID=trdadmin@ev8g0r9ua2;Password=!wall3y3;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
